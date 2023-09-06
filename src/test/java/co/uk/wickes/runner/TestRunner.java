@@ -11,9 +11,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/java/resources/featurefile",
         glue = "co/uk/wickes",
-        plugin = {"pretty", "html:target/cucumber-report/cucumber.html",
-                "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html",
-                "json:target/RunCuke/cucumber.json"}
+        plugin = {"pretty", "html:target/cucumber-report/cucumber.html"}
+//                "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html",
+//                "json:target/RunCuke/cucumber.json"}
 )
 public class TestRunner {
 

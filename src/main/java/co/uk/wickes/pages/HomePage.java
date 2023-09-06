@@ -20,6 +20,7 @@ public class HomePage extends Utility {
     WebElement BAndMLink;
 
     public void mouseHoverAndClickToBAndMLink() {
+        log.info("mouseclick on B and M " + BAndMLink.toString());
         mouseHoverToElementAndClick(BAndMLink);
     }
 
